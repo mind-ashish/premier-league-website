@@ -1,0 +1,61 @@
+body{
+	margin:0px;
+}
+#cr{
+	height: 90vh;
+	width: 100%;
+	background-color: black;
+}
+
+#cr .carousel-item{
+height: 90vh;
+width: 100%;
+}
+
+#cr img{
+	height: 100%;
+	width: 100%;
+}
+
+
+#body-section{
+	height: auto;
+	width: 100%;
+	position: relative;
+	
+}
+#body-section::before{
+	background-image: url(images/back.jpg);
+	background-size: cover;
+	opacity: 0.6;
+	background-position: center;
+	background-attachment: fixed; /*for parallex effect*/
+
+
+	content:"";      
+
+	display: block;     
+
+	position: absolute;     
+	top:0;             
+	left: 0;
+
+	z-index: -5;    
+
+	height: 100%;     
+	width: 100%;
+
+	
+}
+#body-intro{
+	padding-top: 10%;  
+	margin-top: 5%;
+	margin-bottom:5%;
+	
+}
+#body-intro p{
+	color:black;
+}
+.card{
+	width: 100% !important;
+}
