@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Our css link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>liverpool team</title>
+
+</head>
+
+<body>
+        <!-- for expanding on medium devices and higher, otherwise hamburger button toggler -->
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"> 
+	
+        <!-- brand icon/img and text -->
+          <a class="navbar-brand" href="#">
+              <img src="images/icon.jpg" width="50" height="50" class="d-inline align-center" alt="prem league">
+              
+        Premiere league
+      </a>
+    
+      <!-- hanburger button, or navbar toggler, with target = navbarSupportedContent -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+    
+    <!-- Actual navbar, with id=navbarSupportedContent -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- unordered list of type navbar, margin right auto -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="teams.html">Teams  <span class="sr-only">(current)</span></a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Schedule</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tickets</a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+                
+    
+<section id="body-section">
+    <div id="body-intro" class="container">
+    <div style = "text-align: center;">
+        <h1>--Liverpool Squad--</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>Current 11</h3>
+      </div>
+    </div>
+    </div>
+  
+    <div id="body-cards" class="container">
+      <div class="row" >
+       
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-5"   >
+          <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Salah</h5>
+      <img src="data:image/jpeg;base64,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" 
+      width="150" height="150" class="d-inline align-center" alt="prem league"> 
+    </div>
+  </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-5" >
+          <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Firminio</h5>
+          <img src= "https://i0.wp.com/sportytell.com/wp-content/uploads/2019/10/Roberto-Firmino-of-Liverpool-F.C..jpg?fit=1908%2C1146&ssl=1"
+      width="150" height="150" class="d-inline align-center" alt="prem league"> 
+    </div>
+  </div>
+        </div>
+    
+  
+      </div>
+    </div>
+  </section>
+    
+</body>
+</html>
